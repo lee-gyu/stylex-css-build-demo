@@ -4,7 +4,7 @@ import { babel } from '@rollup/plugin-babel';
 import { resolve } from 'path';
 
 const config = {
-  input: './style/index.ts',
+  input: './style/index.js',
   output: {
     file: './.build/index.js',
     format: 'es',
