@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "rollup -c",
-    "build-run": "pnpm build && pnpm node .build/index.js"
+    "build-run": "pnpm build && pnpm node .build/index.js",
+    "es-build": "node esbuild.mjs"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
     "@stylexjs/esbuild-plugin": "^0.5.1",
     "@stylexjs/rollup-plugin": "^0.5.1",
     "@stylexjs/stylex": "^0.5.1",
+    "esbuild": "^0.20.2",
     "rollup": "^4.14.0"
   }
 }
